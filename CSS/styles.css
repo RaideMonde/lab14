@@ -1,0 +1,15 @@
+*{
+    background-color: #232136;
+    color: #e0def4;
+    border: #9ccfd8;
+    text-align: center;
+}
+
+main{
+    display: grid;
+    grid-template-rows: auto;
+}
+
+textarea, input{
+    background-color: #2a273f;
+}

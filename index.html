@@ -4,17 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Contact form</title>
+    <link rel="stylesheet" href="CSS/styles.css">
 </head>
 <body>
-    <h1>Contact Form</h1>
-    <p>Enter your first name, last name, and a happy message about how much you appreciate my presence in your life. </p>
-    <form method="POST" action="https://simple-form.com/gameboylover@hotmail.com">
-        <input type="text" name="name" placeholder="Your name" />
-        <input type="email" name="replyTo" placeholder="Your email" />
-        <textarea name="message" placeholder="Your message"></textarea>
-        <input type="submit" value="Send" />
-    </form>
+    <div class="main">
+        <div class="instruction">
+            <h1>Contact Form</h1>
+            <p>Enter your first name, last name, and a happy message about how much you appreciate my presence in your life. </p>
+        </div>  
+        <div class="form">
+            <form method="POST" action="https://simple-form.com/your-email-here">
+                <input type="text" name="name" placeholder="Your name" />
+                <input type="email" name="replyTo" placeholder="Your email" />
+                <textarea name="message" placeholder="Your message"></textarea>
+                <input type="submit" value="Send" />
+            </form>
+        </div>
+    </div>
 </body>
 </html>
