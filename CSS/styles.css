@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
 *{
     background-color: #232136;
     color: #e0def4;
-    border: #9ccfd8;
-    text-align: center;
+    border-color: #3e8fb0;
+    font-family: 'Raleway', sans-serif;
 }
 
 main{
@@ -10,6 +12,21 @@ main{
     grid-template-rows: auto;
 }
 
+.instruction{
+    text-align: center;
+}
+
+.form{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
 textarea, input{
     background-color: #2a273f;
+    margin: 1rem;    
+    display: block;
+    font-size: 1.5rem;
+    width: 300px;
 }
+
