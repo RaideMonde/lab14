@@ -7,10 +7,6 @@
     font-family: 'Raleway', sans-serif;
 }
 
-main{
-    display: grid;
-    grid-template-rows: auto;
-}
 
 .instruction{
     text-align: center;
